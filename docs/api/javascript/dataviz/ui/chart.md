@@ -21031,7 +21031,7 @@ The color of the value axis minor ticks lines. Accepts a valid CSS color string,
     <script>
     $("#chart").kendoChart({
       valueAxis: {
-        minorTicks {
+        minorTicks: {
           color: "#aa00bb",
           visible: true
         }
@@ -21048,7 +21048,7 @@ The color of the value axis minor ticks lines. Accepts a valid CSS color string,
     <script>
     $("#chart").kendoChart({
       valueAxis: {
-        minorTicks {
+        minorTicks: {
           color: "rgb(128, 0, 255)",
           visible: true
         }
@@ -21065,7 +21065,7 @@ The color of the value axis minor ticks lines. Accepts a valid CSS color string,
     <script>
     $("#chart").kendoChart({
       valueAxis: {
-        minorTicks {
+        minorTicks: {
           color: "green",
           visible: true
         }
