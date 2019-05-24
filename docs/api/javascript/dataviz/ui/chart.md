@@ -3284,7 +3284,7 @@ The color of the category axis minor ticks lines. Accepts a valid CSS color stri
     <script>
     $("#chart").kendoChart({
       categoryAxis: {
-        minorTicks {
+        minorTicks: {
           color: "#aa00bb"
         },
         categories: ["2011", "2012", "2013"]
@@ -3301,7 +3301,7 @@ The color of the category axis minor ticks lines. Accepts a valid CSS color stri
     <script>
     $("#chart").kendoChart({
       categoryAxis: {
-        minorTicks {
+        minorTicks: {
           color: "rgb(128, 0, 255)"
         },
         categories: ["2011", "2012", "2013"]
@@ -3318,7 +3318,7 @@ The color of the category axis minor ticks lines. Accepts a valid CSS color stri
     <script>
     $("#chart").kendoChart({
       categoryAxis: {
-        minorTicks {
+        minorTicks: {
           color: "green"
         },
         categories: ["2011", "2012", "2013"]
@@ -20998,7 +20998,8 @@ The skip of the value axis major ticks.
     });
     </script>
 
-### valueAxis.minorTicks `Object`
+### valueAxis.
+`Object`
 
 The configuration of the value axis minor ticks.
 
@@ -21031,7 +21032,7 @@ The color of the value axis minor ticks lines. Accepts a valid CSS color string,
     <script>
     $("#chart").kendoChart({
       valueAxis: {
-        minorTicks {
+        minorTicks: {
           color: "#aa00bb",
           visible: true
         }
@@ -21048,7 +21049,7 @@ The color of the value axis minor ticks lines. Accepts a valid CSS color string,
     <script>
     $("#chart").kendoChart({
       valueAxis: {
-        minorTicks {
+        minorTicks: {
           color: "rgb(128, 0, 255)",
           visible: true
         }
@@ -21065,7 +21066,7 @@ The color of the value axis minor ticks lines. Accepts a valid CSS color string,
     <script>
     $("#chart").kendoChart({
       valueAxis: {
-        minorTicks {
+        minorTicks: {
           color: "green",
           visible: true
         }
@@ -25544,7 +25545,7 @@ The color of the x axis minor ticks lines. Accepts a valid CSS color string, inc
     <script>
     $("#chart").kendoChart({
       xAxis: {
-        minorTicks {
+        minorTicks: {
           color: "#aa00bb",
           visible: true
         }
@@ -25561,7 +25562,7 @@ The color of the x axis minor ticks lines. Accepts a valid CSS color string, inc
     <script>
     $("#chart").kendoChart({
       xAxis: {
-        minorTicks {
+        minorTicks: {
           color: "rgb(128, 0, 255)",
           visible: true
         }
@@ -25578,7 +25579,7 @@ The color of the x axis minor ticks lines. Accepts a valid CSS color string, inc
     <script>
     $("#chart").kendoChart({
       xAxis: {
-        minorTicks {
+        minorTicks: {
           color: "green",
           visible: true
         }
@@ -30491,7 +30492,7 @@ The color of the y axis minor ticks lines. Accepts a valid CSS color string, inc
     <script>
     $("#chart").kendoChart({
       yAxis: {
-        minorTicks {
+        minorTicks: {
           color: "#aa00bb",
           visible: true
         }
@@ -30508,7 +30509,7 @@ The color of the y axis minor ticks lines. Accepts a valid CSS color string, inc
     <script>
     $("#chart").kendoChart({
       yAxis: {
-        minorTicks {
+        minorTicks: {
           color: "rgb(128, 0, 255)",
           visible: true
         }
@@ -30525,7 +30526,7 @@ The color of the y axis minor ticks lines. Accepts a valid CSS color string, inc
     <script>
     $("#chart").kendoChart({
       yAxis: {
-        minorTicks {
+        minorTicks: {
           color: "green",
           visible: true
         }
