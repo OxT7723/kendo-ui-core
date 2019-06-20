@@ -13294,6 +13294,8 @@ The rotation angle of the extremes.
 
 #### Example
 
+    <div id="chart"></div>
+    <script>
     $("#chart").kendoChart({
       dataSource: {
         data: [{
@@ -13325,6 +13327,7 @@ The rotation angle of the extremes.
          }
       }]
     });
+    </script>
 
 ### series.maxSize `Number` *(default: 100)*
 
